@@ -8,3 +8,8 @@ uv pip install .
 cd docs
 make html
 ```
+
+### Auto-update html on changes
+```bash
+uv run sphinx-autobuild docs docs/_build/html
+```
