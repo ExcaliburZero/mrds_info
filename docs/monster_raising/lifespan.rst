@@ -1,12 +1,16 @@
+.. _lifespan:
+
 Lifespan
 ========
 Each monster has a lifespan which determines how much longer it has to live. Stress, fatigue, tournaments, and the inevitable progression of time will lower a monster's remaining lifespan.
 
 Once a monster's lifespan reaches :code:`0`, they will die.
 
+.. _weekly_lifespan_decrease:
+
 Weekly decrease
 ---------------
-At the start of every in-game week, your current monster's lifespan decreases by a base amount of :code:`10`. Their lifespan is then further decreased based on the monster's current stress and fatigue.
+At the start of every in-game week, your current monster's lifespan decreases by a base amount of :code:`10`. Their lifespan is then further decreased based on the monster's current :ref:`stress <stress>` and :ref:`fatigue <fatigue>`.
 
 .. csv-table::
     :header: "Stress", "Lifespan decrease"
@@ -33,3 +37,10 @@ In the worst case, your monster have its lifespan decrease by as much as :code:`
 Tournaments
 -----------
 Having your monster participate in a tournament reduces its lifespan. Losing a tournament decreases your monster's lifespan by :code:`24`, while winning a tournament only reduces their lifespan by :code:`8`.
+
+.. note::
+
+    The lifespan decrease for tournaments definitely is impacted by win/loss, but I'm not sure yet if there are other factors that impact it.
+
+Items
+-----

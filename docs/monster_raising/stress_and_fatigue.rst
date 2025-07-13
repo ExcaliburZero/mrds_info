@@ -1,0 +1,69 @@
+
+.. _stress:
+
+.. _fatigue:
+
+Stress & fatigue
+================
+Each monster has stress and fatigue score that impact various things such as their :ref:`lifespan <lifespan>`.
+
+Things that change them
+-----------------------
+There are several different types of things that can increase or decrease a monster's stress or fatigue.
+
+Both stress and fatigue are limited to the range :code:`0` to :code:`999`. If an increase would cause one to go above :code:`999`, then it only increases to :code:`999`. If a decrease would cause one to go below :code:`0`, then it only decreases to :code:`0`.
+
+Resting
+^^^^^^^
+Resting decreases your current monster's stress and fatigue.
+-139?? -359
+       -356
+-359   -350
+
+End of a month
+^^^^^^^^^^^^^^
+
+Tournaments
+^^^^^^^^^^^
+Participating in a tournament decreases that monster's stress but increases their fatigue.
+
+Items
+^^^^^
+There are several items that impact stress and fatigue. These are broken down into two categories: consumable items, passive items, and monthly food.
+
+Consumable
+""""""""""
+
+.. csv-table:: Stress
+    :header: Name, Decrease, Price
+
+    Monster Candy, 30, 100 G
+    Elixir, 100, 250 G
+    Sea Angel, , 400 G
+
+.. csv-table:: Fatigue
+    :header: Name, Decrease, Price
+
+    Banana Ring, 30, 100 G
+    Honey Shroom, 300, 500 G
+
+Passive
+"""""""
+
+.. csv-table::
+    :header: Name, Season, Stress decrease, Fatigue decrease
+
+    Gemini's Pot
+    Sculpture
+    Weather Doll
+    Cricket Chime
+
+Monthly food
+""""""""""""
+
+Impacts
+-------
+
+Lifespan
+^^^^^^^^
+Having a high stress and or fatigue will cause your monster to lose more lifespan each in-game week. For more details see :ref:`weekly lifespan decrease <weekly_lifespan_decrease>`.
