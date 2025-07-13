@@ -11,4 +11,5 @@ mrds_info
    :maxdepth: 2
 
    monster_raising/index
+   items
 

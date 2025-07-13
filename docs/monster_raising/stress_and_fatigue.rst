@@ -32,7 +32,7 @@ Participating in a tournament decreases that monster's stress but increases thei
 
 Items
 ^^^^^
-There are several items that impact stress and fatigue. These are broken down into three categories:
+There are several :ref:`items <items>` that impact stress and fatigue. These are broken down into three categories:
 
 * Consumable items
 * Passive items
