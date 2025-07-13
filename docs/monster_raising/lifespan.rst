@@ -77,3 +77,67 @@ The monthly food Tofu has the impact of increasing your monster's lifespan by 5.
     :header: "Name", "Lifespan increase"
 
     Tofu, 5
+
+Starting lifespan
+-----------------
+Each monster species starts out with a particular lifespan when it is created. Even for species with the same main-breed, their lifespan will vary based on their sub-breed.
+
+The pattern for the lifespan of a given breed depending on its sub-breed appears to be the following:
+
+* For sub-breeds that are not "?", the monster's starting lifespan is between the starting lifespans of the pure-breed versions of the main and sub-breeds.
+* For "-ish" monsters, their starting lifespan is higher than the pure-breed.
+* For special "?" monsters, their starting lifespan is lower than the pure-breed.
+
+For example, the table below shows the 7 types of Falco in comparison to their sub-breed lifespans.
+
+.. csv-table::
+    :header: Breeds, Main, Sub, Lifespan
+
+    Falco x Falco, 1900, 1900, 1900
+    Falco x Abyss, 1900, 2050, 1960
+    Falco x Ogyo, 1900, 2050, 1960
+    Falco x Mew, 1900, 2000, 1940
+    Falco x Piroro, 1900, 2200, 2020
+    Falco x ? (-ish), 1900, \-, 1995
+    Falco x ? (Jock), 1900, \-, 1710
+
+Below are the starting lifespans of the pure-breed species.
+
+.. csv-table::
+    :header: Breed, Lifespan
+
+    Abyss, 2050
+    Baku, 2100
+    Beaclon, ???
+    Centaur, ???
+    Color Pandora, 2000
+    Dragon, 1850
+    Ducken, 1950
+    Durahan, 2100
+    Falco, 1900
+    Gali, 1700
+    Golem, 2300
+    Hare, 2000
+    Hengar, 2500
+    Joker, ???
+    Lesione, 2500
+    Mew, 2000
+    Mocchi, 2000
+    Monol, 1800
+    Naga, ???
+    Ogyo, 2050
+    Pancho, 2150
+    Pheonix, ???
+    Piroro, 2200
+    Pixie, 1900
+    Plant, 2000
+    Suezo, 1950
+    Tiger, 1950
+    Xenon, ???
+    Zan, ???
+
+.. note::
+
+    ??? are values I haven't found yet due to not unlocking those monster breeds yet...
+
+    I have not yet checked if lifespan varies for monsters created via combination.
