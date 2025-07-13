@@ -7,6 +7,10 @@ Stress & fatigue
 ================
 Each monster has stress and fatigue score that impact various things such as their :ref:`lifespan <lifespan>`.
 
+.. note::
+
+    This page is under construction
+
 Things that change them
 -----------------------
 There are several different types of things that can increase or decrease a monster's stress or fatigue.
