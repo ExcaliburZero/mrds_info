@@ -5,12 +5,12 @@ Items
 There are several different types of items that you can get in-game. Items fall into the following categories:
 
 * :ref:`Condition-changing <condition_changing_items>` - Increase or decrease things such as stress, fatigue, discipline, etc.
+* :ref:`Passive effect <passive_effect_items>` - Passively decrease stress and/or fatigue
 * :ref:`Stat-increasing <stat_increasing_items>` - Permanently increase particular stats
 * :ref:`Temporary boosts <temporary_boosts>` - Temporarily increase battle stats or training effect, but reduce lifespan
 * :ref:`Lifespan-increasing <lifespan_increasing_items>` - Increase lifespan
-* Combination - Use when combining to change the resulting species
-* Passive effect - Passively decrease stress and/or fatigue
-* Valuable - Can be sold for a lot of gold
+* :ref:`Combination <combination_items>` - Use when combining to change the resulting species
+* :ref:`Valuable <valuable_items>` - Can be sold for a lot of gold
 
 You can have up to 50 items in your inventory if you have the largest house size.
 
@@ -36,6 +36,27 @@ Condition-changing items are items that can be used in order to change your mons
     Fatty Meat, , +50, ???, ???, ???, ???, 200
     Blade Weed, +100, , ???, ???, ???, ???, 400
     Rosemoon, , , ???, ???, ???, ???, 2000
+
+.. _passive_effect_items:
+
+Passive effect
+--------------
+Passive effect items are items that passively reduce the stress or fatigue of your current monster.
+
+Depending on the particular item, they either take effect at the start or each month or when resting. Many only take effect during specific seasons.
+
+They are obtained by winning specific tournaments.
+
+.. csv-table::
+    :header: Name, Season, Trigger, Stress dec., Fatigue dec., Tournament
+
+    Sculpture, All, Monthly, , ???, Artemis Cup (D 9/1)
+    Gemini's Pot, All, Monthly, ???, , Gemini Cup (D 6/1)
+    Weather Doll, Spring, Monthly, , ???, Rainbow Cup (D 8/3)
+    Ice Cube, Summer, Monthly, ???, , Platinum Memorial (B 9/1)
+    Cricket Chime, Autumn, Monthly, ???, , Cricket Cup (C 9/1)
+    Fire Stone, Winter, Monthly, , ???, Treasure Cup (A 2/3)
+    Music Box, All, Rest, ???, ???, Master Cup (S 10/4)
 
 .. _stat_increasing_items:
 
@@ -88,3 +109,39 @@ Lifespan-increasing items are rare items that can be used to increase your monst
 
     Silver Peach, 250
     Gold Peach, 500
+
+.. _combination_items:
+
+Combination items
+-----------------
+Combination items are items that can be used when combining two monsters in order to change the species of the resulting monster.
+
+They are obtained when unlocking the ability to create a new monster species.
+
+.. csv-table::
+    :header: Name, Species
+
+    King's Proof, Xenon
+    Dragon Fang, Dragon
+    Twin Edge, Durahan
+    Fire Feather, Pheonix
+    Cursed Mask, Joker
+    Ancient Weapon, Hengar
+    Gali Mask, Gali
+    Knight's Lance, Centaur
+    Naga Scale, Naga
+    Black Slate, Monol
+    Pupa, Beaclon
+
+.. _valuable_items:
+
+Valuable items
+--------------
+Valuable items are items that can be sold at the market for a lot of gold. Typically they are obtained as tournament prizes or on errantry.
+
+.. csv-table::
+    :header: Name, Sell price
+
+    Silver Nugget, 5000
+    Gold Nugget, 10000
+    Platinum, 30000

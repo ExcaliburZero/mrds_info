@@ -63,7 +63,7 @@ Decrease
 
 Increase
 ^^^^^^^^
-There are two rare items that can increase your monster's lifespan: Silver Peach and Gold peach. Lifespan maxes out at :code:`9999`, so increasing your monsters lifespan can have it exceed it's original lifespan at creation.
+There are two rare items that can increase your monster's lifespan: :ref:`Silver Peach and Gold peach <lifespan_increasing_items>`. Lifespan maxes out at :code:`9999`, so increasing your monsters lifespan can have it exceed it's original lifespan at creation.
 
 .. csv-table::
     :header: "Name", "Lifespan increase"

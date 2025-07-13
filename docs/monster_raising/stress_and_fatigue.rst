@@ -59,6 +59,9 @@ Consumable
 
 Passive
 """""""
+:ref:`Passive effect items <passive_effect_items>` reduce your monster's stress and/or fatigue.
+
+Depending on the particular item, they either take effect at the start or each month or when resting. Many only take effect during specific seasons.
 
 .. csv-table::
     :header: Name, Season, Trigger, Stress decrease, Fatigue decrease
