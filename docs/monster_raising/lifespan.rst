@@ -46,13 +46,11 @@ Items
 -----
 There are several consumable items that impact your monster's lifespan. They are grouped into the following categories:
 
-* Items that decrease lifespan as a tradeoff
-
-  * Temporary battle stat increases
-  * Temporary training effectiveness increases
-
+* Items that decrease lifespan as a tradeoff for temporary battle stat or training effectiveness increases
 * Items that increase lifespan
 
+Decrease
+^^^^^^^^
 .. csv-table::
     :header: "Name", "Type", "Stats", "Lifespan decrease"
 
@@ -62,3 +60,13 @@ There are several consumable items that impact your monster's lifespan. They are
     Spook Bug, Training+, Power & Intelligence, 30
     Red Mango, Training+, Defense & Life, 25
     Bell Flower, Training+, Skill & Speed, 25
+
+Increase
+^^^^^^^^
+There are two rare items that can increase your monster's lifespan: Silver Peach and Gold peach. Lifespan maxes out at :code:`9999`, so increasing your monsters lifespan can have it exceed it's original lifespan at creation.
+
+.. csv-table::
+    :header: "Name", "Lifespan increase"
+
+    Silver Peach, 250
+    Gold Peach, 500
