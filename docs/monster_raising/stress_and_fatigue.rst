@@ -29,23 +29,30 @@ Participating in a tournament decreases that monster's stress but increases thei
 
 Items
 ^^^^^
-There are several items that impact stress and fatigue. These are broken down into two categories: consumable items, passive items, and monthly food.
+There are several items that impact stress and fatigue. These are broken down into three categories:
+
+* Consumable items
+* Passive items
+* Monthly food
 
 Consumable
 """"""""""
 
-.. csv-table:: Stress
-    :header: Name, Decrease, Price
+.. csv-table::
+    :header: Name, Stress impact, Price
 
-    Monster Candy, 30, 100 G
-    Elixir, 100, 250 G
-    Sea Angel, , 400 G
+    Monster Candy, -30, 100 G
+    Elixir, -100, 250 G
+    Sea Angel, -200, 400 G
+    Blade Weed, +100, 200 G
 
-.. csv-table:: Fatigue
-    :header: Name, Decrease, Price
+.. csv-table::
+    :header: Name, Fatigue impact, Price
 
-    Banana Ring, 30, 100 G
-    Honey Shroom, 300, 500 G
+    Banana Ring, -30, 100 G
+    Medicinal Herb, -100, 250 G
+    Honey Shroom, -300, 500 G
+    Fatty Meat, +50, 100 G
 
 Passive
 """""""
