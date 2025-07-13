@@ -20,8 +20,11 @@ Resting decreases your current monster's stress and fatigue.
        -356
 -359   -350
 
+TODO
+
 End of a month
 ^^^^^^^^^^^^^^
+TODO
 
 Tournaments
 ^^^^^^^^^^^
@@ -60,36 +63,29 @@ Passive
 .. csv-table::
     :header: Name, Season, Trigger, Stress decrease, Fatigue decrease
 
-    Sculpture, All, Daily, , ???
-    Gemini's Pot, All, Daily, ???,
-    Weather Doll, Spring, Daily, , ???
-    Ice Cube, Summer, Daily, ???,
-    Cricket Chime, Autumn, Daily, ???,
-    Fire Stone, Winter, Daily, , ???
+    Sculpture, All, Monthly, , ???
+    Gemini's Pot, All, Monthly, ???,
+    Weather Doll, Spring, Monthly, , ???
+    Ice Cube, Summer, Monthly, ???,
+    Cricket Chime, Autumn, Monthly, ???,
+    Fire Stone, Winter, Monthly, , ???
     Music Box, All, Rest, ???, ???
 
 Monthly food
 """"""""""""
+Each monthly food has an impact on your monster's stress, which varies based on the breed of monster.
 
-.. csv-table::
-    :header: Name, Stress change
+.. csv-table:: Stress changes
+    :header: Breed, Potato, Pasta, Turnip, Fish, Milk, Cup Jelly\*, Meat\*\*, Tablet, Tofu, Nothing
 
-    Potato, +30
-    Pasta, +30
-    Turnip, -5
-    Fish,
-    Milk, -20
-    Cup Jelly \*, -30
-    Meat, -10
-    Tablet, -60
-    Tofu, -40
-    Nothing, +100
+    Abyss, +30, 0, -10, -5, -60, -20, +30, -40, -30, +100
+    Dulahan, +30, 0, +30, -5, -20, -10, -30, -60, -40, +100
+    Hengar, +30, +30, -5, 0, -20, -30, -10, -60, -40, +100
+    Tiger, -10, 0, -20, -5, -30, +30, -60, -40, +30, +100
 
-\* Despite Cup Jelly's description saying it "promotes Fatigue relief", consuming it does not decrease fatigue.
+**\*** Despite Cup Jelly's description saying it "promotes Fatigue relief", consuming it does not decrease fatigue.
 
-.. note::
-
-    The above stat changes were found by feeding the food to a Hengar. The impact may vary based on monster breed.
+**\*\*** Despite Meat's description saying it "relieves Stress when consumed", consuming it can cause the monster's stress to either decrease or increase depending on the monster's breed.
 
 Impacts
 -------
