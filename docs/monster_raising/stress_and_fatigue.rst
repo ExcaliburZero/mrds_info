@@ -58,15 +58,38 @@ Passive
 """""""
 
 .. csv-table::
-    :header: Name, Season, Stress decrease, Fatigue decrease
+    :header: Name, Season, Trigger, Stress decrease, Fatigue decrease
 
-    Gemini's Pot
-    Sculpture
-    Weather Doll
-    Cricket Chime
+    Sculpture, All, Daily, , ???
+    Gemini's Pot, All, Daily, ???,
+    Weather Doll, Spring, Daily, , ???
+    Ice Cube, Summer, Daily, ???,
+    Cricket Chime, Autumn, Daily, ???,
+    Fire Stone, Winter, Daily, , ???
+    Music Box, All, Rest, ???, ???
 
 Monthly food
 """"""""""""
+
+.. csv-table::
+    :header: Name, Stress change
+
+    Potato, +30
+    Pasta, +30
+    Turnip, -5
+    Fish,
+    Milk, -20
+    Cup Jelly \*, -30
+    Meat, -10
+    Tablet, -60
+    Tofu, -40
+    Nothing, +100
+
+\* Despite Cup Jelly's description saying it "promotes Fatigue relief", consuming it does not decrease fatigue.
+
+.. note::
+
+    The above stat changes were found by feeding the food to a Hengar. The impact may vary based on monster breed.
 
 Impacts
 -------
