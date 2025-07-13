@@ -20,9 +20,6 @@ Both stress and fatigue are limited to the range :code:`0` to :code:`999`. If an
 Resting
 ^^^^^^^
 Resting decreases your current monster's stress and fatigue.
--139?? -359
-       -356
--359   -350
 
 TODO
 
