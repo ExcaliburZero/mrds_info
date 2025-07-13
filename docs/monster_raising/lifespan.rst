@@ -44,3 +44,21 @@ Having your monster participate in a tournament reduces its lifespan. Losing a t
 
 Items
 -----
+There are several consumable items that impact your monster's lifespan. They are grouped into the following categories:
+
+* Items that decrease lifespan as a tradeoff
+
+  * Temporary battle stat increases
+  * Temporary training effectiveness increases
+
+* Items that increase lifespan
+
+.. csv-table::
+    :header: "Name", "Type", "Stats", "Lifespan decrease"
+
+    Soybean Flour, Battle+, Power & Intelligence, 30
+    Dragon Scale, Battle+, Defense & Life, 25 
+    Hot Lozenge, Battle+, Skill & Speed, 25
+    Spook Bug, Training+, Power & Intelligence, 30
+    Red Mango, Training+, Defense & Life, 25
+    Bell Flower, Training+, Skill & Speed, 25
