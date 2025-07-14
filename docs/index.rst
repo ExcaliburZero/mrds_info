@@ -5,6 +5,7 @@
 
 mrds_info
 =========
+This guide not official and has no affiliation with Cing, Tecmo, or UFO Interactive Games.
 
 
 .. toctree::
