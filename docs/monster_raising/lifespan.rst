@@ -34,6 +34,14 @@ So for example, if your monster has a stress level of :code:`50` and a fatigue l
 
 In the worst case, your monster have its lifespan decrease by as much as :code:`52` in a single in-game week (with :code:`900+` stress and :code:`900+` fatigue).
 
+Drills & errantry
+-----------------
+When you send your monster on a drill or errantry, while the activity takes 4 weeks, only 2 weeks worth of weekly lifespan decreases are applied. The 2 decreases are applied based on your monster's stress and fatigue after coming back from the drill or errantry.
+
+Because of this, **doing a drill or errantry is generally a more effective use of lifespan than normal training**.
+
+For example, if you monster returns from a drill with :code:`408` stress and :code:`436` fatigue then its lifespan will be decreased by :code:`28`. This is less than the decrease of :code:`40` that could occur if resting or training for 4 weeks.
+
 Tournaments
 -----------
 Having your monster participate in a tournament reduces its lifespan. Losing a tournament decreases your monster's lifespan by :code:`24`, while winning a tournament only reduces their lifespan by :code:`8`.
