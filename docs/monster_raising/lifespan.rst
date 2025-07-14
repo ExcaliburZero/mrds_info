@@ -79,7 +79,7 @@ There are two rare items that increase your monster's lifespan: :ref:`Silver Pea
     Silver Peach, 250
     Gold Peach, 500
 
-The monthly food Tofu has the impact of increasing your monster's lifespan by 5.
+The monthly food Tofu has the impact of increasing your monster's lifespan by :code:`5`.
 
 .. csv-table::
     :header: "Name", "Lifespan increase"
