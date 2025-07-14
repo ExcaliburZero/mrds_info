@@ -92,11 +92,13 @@ Each monster species starts out with a particular lifespan when it is created. E
 
 The pattern for the lifespan of a given breed depending on its sub-breed appears to be the following:
 
-* For sub-breeds that are not "?", the monster's starting lifespan is between the starting lifespans of the pure-breed versions of the main and sub-breeds.
+* For sub-breeds that are not "?", the monster's starting lifespan is 60/40 the starting lifespans of the pure-breed versions of the main and sub-breeds. [#f1]_
 * For "-ish" monsters, their starting lifespan is higher than the pure-breed.
 * For special "?" monsters, their starting lifespan is lower than the pure-breed.
 
-For example, the table below shows the 7 types of Falco in comparison to their sub-breed lifespans.
+The table below shows the 7 types of Falco in comparison to their sub-breed lifespans.
+
+As an example, Falco x Abyss has a lifespan of 1960. 0.6 * 1900 + 0.4 * 2050 = 1140 + 820 = 1960.
 
 .. csv-table::
     :header: Breeds, Main, Sub, Lifespan
@@ -149,3 +151,7 @@ Below are the starting lifespans of the pure-breed species.
     ??? are values I haven't found yet due to not unlocking those monster breeds yet...
 
     I have not yet checked if lifespan varies for monsters created via combination.
+
+.. rubric:: Footnotes
+
+.. [#f1] Thanks to Monster Fenrick (Taylor W) on the /r/monsterrancher chat Discord server for pointing out that the lifespan for mixed-breeds might be 60/40 the main and sub-breeds' lifespan.
