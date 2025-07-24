@@ -118,8 +118,8 @@ Below are the starting lifespans of the pure-breed species.
 
     Abyss, 2050
     Baku, 2100
-    Beaclon, ???
-    Centaur, ???
+    Beaclon, 2050
+    Centaur, 1950
     Color Pandora, 2000
     Dragon, 1850
     Ducken, 1950
@@ -129,22 +129,22 @@ Below are the starting lifespans of the pure-breed species.
     Golem, 2300
     Hare, 2000
     Hengar, 2500
-    Joker, ???
+    Joker, 1500
     Lesione, 2500
     Mew, 2000
     Mocchi, 2000
     Monol, 1800
-    Naga, ???
+    Naga, 1750
     Ogyo, 2050
     Pancho, 2150
-    Pheonix, ???
+    Pheonix, 1500
     Piroro, 2200
     Pixie, 1900
     Plant, 2000
     Suezo, 1950
     Tiger, 1950
-    Xenon, ???
-    Zan, ???
+    Xenon, 2250
+    Zan, 1850
 
 .. note::
 
