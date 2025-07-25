@@ -14,3 +14,7 @@ This guide not official and has no affiliation with Cing, Tecmo, or UFO Interact
    monster_raising/index
    items
 
+Related links
+-------------
+* `Wolfire's Hidden Values forum thread <https://gamefaqs.gamespot.com/boards/946519-monster-rancher-ds/55930266>`_
+* `Penopat's Lifespans and Potential forum thread <https://gamefaqs.gamespot.com/boards/946519-monster-rancher-ds/56024426>`_

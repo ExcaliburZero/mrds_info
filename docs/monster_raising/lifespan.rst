@@ -92,7 +92,7 @@ Each monster species starts out with a particular lifespan when it is created. E
 
 The pattern for the lifespan of a given breed depending on its sub-breed appears to be the following:
 
-* For sub-breeds that are not "?", the monster's starting lifespan is 60/40 the starting lifespans of the pure-breed versions of the main and sub-breeds. [#f1]_
+* For sub-breeds that are not "?", the monster's starting lifespan is 60/40 the starting lifespans of the pure-breed versions of the main and sub-breeds. [#f1]_ [#f2]_
 * For "-ish" monsters, their starting lifespan is higher than the pure-breed.
 * For special "?" monsters, their starting lifespan is lower than the pure-breed.
 
@@ -146,12 +146,7 @@ Below are the starting lifespans of the pure-breed species.
     Xenon, 2250
     Zan, 1850
 
-.. note::
-
-    ??? are values I haven't found yet due to not unlocking those monster breeds yet...
-
-    I have not yet checked if lifespan varies for monsters created via combination.
-
 .. rubric:: Footnotes
 
 .. [#f1] Thanks to Monster Fenrick (Taylor W) on the /r/monsterrancher chat Discord server for pointing out that the lifespan for mixed-breeds might be 60/40 the main and sub-breeds' lifespan.
+.. [#f2] A different, but equivalent, approach to calculating mixed-breed monster lifespans is described in `Penopat's GameFAQs thread <https://gamefaqs.gamespot.com/boards/946519-monster-rancher-ds/56024426>`_.
