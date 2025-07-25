@@ -14,6 +14,16 @@ There are several different types of items that you can get in-game. Items fall 
 
 You can have up to 50 items in your inventory if you have the largest house size.
 
+.. _item_preferences:
+
+Preferences
+-----------
+The effects of items will vary slightly based on your monster's preferences. They may increase or decrease values a bit more than usual, and they might also impact other conditions the items does not usually impact.
+
+For example, a monster that dislikes Elixir may result in :code:`-4` discipline, :code:`+3` wit, and :code:`-3` trust in addition to the item's normal :code:`-100` stress and :code:`+2` shape.
+
+Each monster has a liked item and disliked item, however these are not the only items that the monster has preferences for or against.
+
 .. _condition_changing_items:
 
 Condition-changing
@@ -21,25 +31,21 @@ Condition-changing
 Condition-changing items are items that can be used in order to change your monster's :ref:`stress <stress>`, :ref:`fatigue <fatigue>`, discipline, shape, wit, or fame.
 
 .. csv-table::
-    :header: Name, Stress, Fatigue, Discipline, Shape, Wit, Trust, Fame, Cost
+    :header: Name, Stress, Fatigue, Discipline, Shape, Wit, Fame, Cost
 
-    Banana Ring, , -30, +3, +2, +2, -2, , 200
-    Medicinal Herb, , -100, +2, -2, , , , 500
-    Honey Shroom, , -300, -5, +2, , , , 1000
-    Monster Candy, -30, , +5, +2, , , , 200
-    Elixir, -100, , -4, +2, +3, -3, , 500
-    Sea Angel, -200, , -5, -2, , , , 800
-    Soda Lozenge, , , , +5, +20, , , 600
-    Worm Fungus, , , , -5, -20, , , 600
-    Roll Cake, , , +20, +5, , , , 500
-    Shock Rock, , , -20, -5, , , , 500
-    Fatty Meat, , +50, +4, +10, -3, +3, , 200
-    Blade Weed, +100, , , -20, , , , 400
-    Rosemoon, , , +7, , -2, +2, +10, 2000
-
-.. note::
-
-    Tested with a pure-breed Hengar that likes Fatty Meat and dislikes Elixir. Exact values may vary. Might just be discipline and/or trust impact that varies.
+    Banana Ring, , -30, +5, +2, , , 200
+    Medicinal Herb, , -100, +2, -2, , , 500
+    Honey Shroom, , -300, -5, +2, , , 1000
+    Monster Candy, -30, , +5, +2, , , 200
+    Elixir, -100, , , +2, , , 500
+    Sea Angel, -200, , -5, -2, , , 800
+    Soda Lozenge, , , , +5, +20, , 600
+    Worm Fungus, , , , -5, -20, , 600
+    Roll Cake, , , +20, +5, , , 500
+    Shock Rock, , , -20, -5, , , 500
+    Fatty Meat, , +50, , +10, , , 200
+    Blade Weed, +100, , , -20, , , 400
+    Rosemoon, , , +5, , , +10, 2000
 
 Passive effect
 --------------
@@ -67,18 +73,14 @@ Stat-increasing
 Stat-increasing items increase a particular stat of your monster by :code:`2` when used.
 
 .. csv-table::
-    :header: Name, Stat, Effect, Discipline, Shape, Wits, Trust
+    :header: Name, Stat, Effect, Shape, Trust
 
-    Pow. Fruit, Power, +2, , -1, , +2
-    Int. Fruit, Intelligence, +2, , -1, , +2
-    Skil. Fruit, Skill, +2, , -1, , +2
-    Spd. Fruit, Speed, +2, , -1, , +2
-    Def. Fruit, Defense, +2, , -1, +1, +3
-    Lif. Fruit, Life, +2, +2, -1, -1, +3
-
-.. note::
-
-    Tested with a pure-breed Hengar that likes Fatty Meat and dislikes Elixir. Exact values may vary. Might just be discipline and/or trust impact that varies.
+    Pow. Fruit, Power, +2, -1, +2
+    Int. Fruit, Intelligence, +2, -1, +2
+    Skil. Fruit, Skill, +2, -1, +2
+    Spd. Fruit, Speed, +2, -1, +2
+    Def. Fruit, Defense, +2, -1, +2
+    Lif. Fruit, Life, +2, -1, +2
 
 .. _temporary_boosts:
 
@@ -89,24 +91,20 @@ Temporary boost items temporarily increase your monsters stat in battle or stat 
 Battle stats
 ^^^^^^^^^^^^
 .. csv-table::
-    :header: Name, Stats, Effect, Lifespan, Discipline, Wits, Trust
+    :header: Name, Stats, Effect, Lifespan, Discipline, Trust
 
-    Soybean Flour, Power & Intelligence, ???, -30, -15, , -15
-    Dragon Scale, Defense & Life, ???, -25, -12, +1, -11 
-    Hot Lozenge, Skill & Speed, ???, -25, -10, , -10
+    Soybean Flour, Power & Intelligence, ???, -30, -15, -15
+    Dragon Scale, Defense & Life, ???, -25, -10, -10
+    Hot Lozenge, Skill & Speed, ???, -25, -10, -10
 
 Training
 ^^^^^^^^
 .. csv-table::
-    :header: Name, Stats, Effect, Lifespan, Discipline, Wits, Trust
+    :header: Name, Stats, Effect, Lifespan, Discipline, Trust
 
-    Spook Bug, Power & Intelligence, ???, -30, -15, , -15
-    Red Mango, Defense & Life, ???, -25, -10, , -10
-    Bell Flower, Skill & Speed, ???, -25, -10, , -10
-
-.. note::
-
-    Tested with a pure-breed Hengar that likes Fatty Meat and dislikes Elixir. Exact values may vary. Might just be discipline and/or trust impact that varies.
+    Spook Bug, Power & Intelligence, ???, -30, -15, -15
+    Red Mango, Defense & Life, ???, -25, -10, -10
+    Bell Flower, Skill & Speed, ???, -25, -10, -10
 
 .. _lifespan_increasing_items:
 
