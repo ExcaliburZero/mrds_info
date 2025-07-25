@@ -21,23 +21,25 @@ Condition-changing
 Condition-changing items are items that can be used in order to change your monster's :ref:`stress <stress>`, :ref:`fatigue <fatigue>`, discipline, shape, wit, or fame.
 
 .. csv-table::
-    :header: Name, Stress, Fatigue, Discipline, Shape, Wit, Fame, Cost
+    :header: Name, Stress, Fatigue, Discipline, Shape, Wit, Trust, Fame, Cost
 
-    Banana Ring, , -30, ???, ???, ???, ???, 200
-    Medicinal Herb, , -100, ???, ???, ???, ???, 500
-    Honey Shroom, , -300, ???, ???, ???, ???, 1000
-    Monster Candy, -30, , ???, ???, ???, ???, 200
-    Elixir, -100, , ???, ???, ???, ???, 500
-    Sea Angel, -200, , ???, ???, ???, ???, 800
-    Soda Lozenge, , , ???, ???, ???, ???, 600
-    Worm Fungus, , , ???, ???, ???, ???, 600
-    Roll Cake, , , ???, ???, ???, ???, 500
-    Shock Rock, , , ???, ???, ???, ???, 500
-    Fatty Meat, , +50, ???, ???, ???, ???, 200
-    Blade Weed, +100, , ???, ???, ???, ???, 400
-    Rosemoon, , , ???, ???, ???, ???, 2000
+    Banana Ring, , -30, +3, +2, +2, -2, , 200
+    Medicinal Herb, , -100, +2, -2, , , , 500
+    Honey Shroom, , -300, -5, +2, , , , 1000
+    Monster Candy, -30, , +5, +2, , , , 200
+    Elixir, -100, , -4, +2, +3, -3, , 500
+    Sea Angel, -200, , -5, -2, , , , 800
+    Soda Lozenge, , , , +5, +20, , , 600
+    Worm Fungus, , , , -5, -20, , , 600
+    Roll Cake, , , +20, +5, , , , 500
+    Shock Rock, , , -20, -5, , , , 500
+    Fatty Meat, , +50, +4, +10, -3, +3, , 200
+    Blade Weed, +100, , , -20, , , , 400
+    Rosemoon, , , +7, , -2, +2, +10, 2000
 
-.. _passive_effect_items:
+.. note::
+
+    Tested with a pure-breed Hengar that likes Fatty Meat and dislikes Elixir. Exact values may vary. Might just be discipline and/or trust impact that varies.
 
 Passive effect
 --------------
@@ -65,14 +67,18 @@ Stat-increasing
 Stat-increasing items increase a particular stat of your monster by :code:`2` when used.
 
 .. csv-table::
-    :header: Name, Stat, Increase
+    :header: Name, Stat, Effect, Discipline, Shape, Wits, Trust
 
-    Pow. Fruit, Power, 2
-    Int. Fruit, Intelligence, 2
-    Skil. Fruit, Skill, 2
-    Spd. Fruit, Speed, 2
-    Def. Fruit, Defense, 2
-    Lif. Fruit, Life, 2
+    Pow. Fruit, Power, +2, , -1, , +2
+    Int. Fruit, Intelligence, +2, , -1, , +2
+    Skil. Fruit, Skill, +2, , -1, , +2
+    Spd. Fruit, Speed, +2, , -1, , +2
+    Def. Fruit, Defense, +2, , -1, +1, +3
+    Lif. Fruit, Life, +2, +2, -1, -1, +3
+
+.. note::
+
+    Tested with a pure-breed Hengar that likes Fatty Meat and dislikes Elixir. Exact values may vary. Might just be discipline and/or trust impact that varies.
 
 .. _temporary_boosts:
 
@@ -83,20 +89,24 @@ Temporary boost items temporarily increase your monsters stat in battle or stat 
 Battle stats
 ^^^^^^^^^^^^
 .. csv-table::
-    :header: "Name", "Stats", "Stat increase", "Lifespan decrease"
+    :header: Name, Stats, Effect, Lifespan, Discipline, Wits, Trust
 
-    Soybean Flour, Power & Intelligence, ???, 30
-    Dragon Scale, Defense & Life, ???, 25 
-    Hot Lozenge, Skill & Speed, ???, 25
+    Soybean Flour, Power & Intelligence, ???, -30, -15, , -15
+    Dragon Scale, Defense & Life, ???, -25, -12, +1, -11 
+    Hot Lozenge, Skill & Speed, ???, -25, -10, , -10
 
 Training
 ^^^^^^^^
 .. csv-table::
-    :header: "Name", "Stats", "Stat increase", "Lifespan decrease"
+    :header: Name, Stats, Effect, Lifespan, Discipline, Wits, Trust
 
-    Spook Bug, Power & Intelligence, ???, 30
-    Red Mango, Defense & Life, ???, 25
-    Bell Flower, Skill & Speed, ???, 25
+    Spook Bug, Power & Intelligence, ???, -30, -15, , -15
+    Red Mango, Defense & Life, ???, -25, -10, , -10
+    Bell Flower, Skill & Speed, ???, -25, -10, , -10
+
+.. note::
+
+    Tested with a pure-breed Hengar that likes Fatty Meat and dislikes Elixir. Exact values may vary. Might just be discipline and/or trust impact that varies.
 
 .. _lifespan_increasing_items:
 
@@ -105,10 +115,10 @@ Lifespan-increasing
 Lifespan-increasing items are rare items that can be used to increase your monster's :ref:`lifespan <lifespan>`.
 
 .. csv-table::
-    :header: "Name", "Lifespan increase"
+    :header: Name, Lifespan, Trust
 
-    Silver Peach, 250
-    Gold Peach, 500
+    Silver Peach, +250, +10
+    Gold Peach, +500, +20
 
 .. _combination_items:
 
