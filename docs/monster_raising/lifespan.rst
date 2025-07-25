@@ -36,9 +36,9 @@ In the worst case, your monster have its lifespan decrease by as much as :code:`
 
 Drills & errantry
 -----------------
-When you send your monster on a drill or errantry, while the activity takes 4 weeks, only 2 weeks worth of weekly lifespan decreases are applied. The 2 decreases are applied based on your monster's stress and fatigue after coming back from the drill or errantry.
+When you send your monster on a drill or errantry, while the activity takes 4 weeks, only 2 weeks worth of :ref:`weekly lifespan decreases <weekly_lifespan_decrease>` are applied. The 2 decreases are applied based on your monster's stress and fatigue after coming back from the drill or errantry.
 
-Because of this, **doing a drill or errantry is generally a more effective use of lifespan than normal training**.
+Because of this, **doing a drill or errantry can be a more effective use of lifespan than normal training**.
 
 For example, if you monster returns from a drill with :code:`408` stress and :code:`436` fatigue then its lifespan will be decreased by :code:`28`. This is less than the decrease of :code:`40` that could occur if resting or training for 4 weeks.
 
@@ -93,24 +93,30 @@ Each monster species starts out with a particular lifespan when it is created. E
 The pattern for the lifespan of a given breed depending on its sub-breed appears to be the following:
 
 * For sub-breeds that are not "?", the monster's starting lifespan is 60/40 the starting lifespans of the pure-breed versions of the main and sub-breeds. [#f1]_ [#f2]_
-* For "-ish" monsters, their starting lifespan is higher than the pure-breed.
-* For special "?" monsters, their starting lifespan is lower than the pure-breed.
+* For "-ish" monsters, their starting lifespan is 105% of the pure-breed.
+* For special "?" monsters, their starting lifespan is 90% of the pure-breed.
+
+As some examples of how to calculate the lifespans:
+
+* Falco / Abyss has a lifespan of :code:`0.6 * 1900 + 0.4 * 2050` = :code:`1140 + 820` = :code:`1960`
+* Falco / ? (-ish) has a lifespan of :code:`1900 * 1.05` = :code:`1995`
+* Falco / ? (Jock) has a lifespan of :code:`1900 * 0.90` = :code:`1710`
 
 The table below shows the 7 types of Falco in comparison to their sub-breed lifespans.
-
-As an example, Falco x Abyss has a lifespan of 1960. 0.6 * 1900 + 0.4 * 2050 = 1140 + 820 = 1960.
 
 .. csv-table::
     :header: Breeds, Main, Sub, Lifespan
 
-    Falco x Falco, 1900, 1900, 1900
-    Falco x Abyss, 1900, 2050, 1960
-    Falco x Ogyo, 1900, 2050, 1960
-    Falco x Mew, 1900, 2000, 1940
-    Falco x Piroro, 1900, 2200, 2020
-    Falco x ? (-ish), 1900, \-, 1995
-    Falco x ? (Jock), 1900, \-, 1710
+    Falco / Falco, 1900, 1900, 1900
+    Falco / Abyss, 1900, 2050, 1960
+    Falco / Ogyo, 1900, 2050, 1960
+    Falco / Mew, 1900, 2000, 1940
+    Falco / Piroro, 1900, 2200, 2020
+    Falco / ? (-ish), 1900, \-, 1995
+    Falco / ? (Jock), 1900, \-, 1710
 
+Pure-breed lifespans
+^^^^^^^^^^^^^^^^^^^^
 Below are the starting lifespans of the pure-breed species.
 
 .. csv-table::
