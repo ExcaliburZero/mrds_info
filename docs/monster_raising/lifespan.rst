@@ -6,6 +6,20 @@ Each monster has a lifespan which determines how much longer it has to live. Str
 
 When a monster's starts a week with its lifespan at :code:`0`, they will die.
 
+Cleo's warning
+--------------
+Cleo will warn you when your monster's lifespan drops below 25% of its starting lifespan.
+
+    Um, <PLAYER>? This isn't easy for me...
+
+    But maybe it's time to let <MONSTER> go.
+
+    It's starting to slow down, and...I think it's just getting too old.
+
+    The best thing to do would be freeze and combine it at the Lab.
+
+Even when you get this warning, you still have quite a bit of time left with your monster. Depending on your monster's starting lifespan, they may have ~9 months to ~1 year and 3 months of lifespan left.
+
 .. _weekly_lifespan_decrease:
 
 Weekly decrease
@@ -118,37 +132,39 @@ Pure-breed lifespans
 Below are the starting lifespans of the pure-breed species.
 
 .. csv-table::
-    :header: Breed, Lifespan
+    :header: Breed, Lifespan, Estimated age\*
 
-    Abyss, 2050
-    Baku, 2100
-    Beaclon, 2050
-    Centaur, 1950
-    Color Pandora, 2000
-    Dragon, 1850
-    Ducken, 1950
-    Durahan, 2100
-    Falco, 1900
-    Gali, 1700
-    Golem, 2300
-    Hare, 2000
-    Hengar, 2500
-    Joker, 1500
-    Lesione, 2500
-    Mew, 2000
-    Mocchi, 2000
-    Monol, 1800
-    Naga, 1750
-    Ogyo, 2050
-    Pancho, 2150
-    Pheonix, 1500
-    Piroro, 2200
-    Pixie, 1900
-    Plant, 2000
-    Suezo, 1950
-    Tiger, 1950
-    Xenon, 2250
-    Zan, 1850
+    Abyss,2050,"4 years, 3 months"
+    Baku,2100,"4 years, 4 months"
+    Beaclon,2050,"4 years, 3 months"
+    Centaur,1950,"4 years, 0 months"
+    Color Pandora,2000,"4 years, 2 months"
+    Dragon,1850,"3 years, 10 months"
+    Ducken,1950,"4 years, 0 months"
+    Durahan,2100,"4 years, 4 months"
+    Falco,1900,"3 years, 11 months"
+    Gali,1700,"3 years, 6 months"
+    Golem,2300,"4 years, 9 months"
+    Hare,2000,"4 years, 2 months"
+    Hengar,2500,"5 years, 2 months"
+    Joker,1500,"3 years, 1 months"
+    Lesione,2500,"5 years, 2 months"
+    Mew,2000,"4 years, 2 months"
+    Mocchi,2000,"4 years, 2 months"
+    Monol,1800,"3 years, 9 months"
+    Naga,1750,"3 years, 7 months"
+    Ogyo,2050,"4 years, 3 months"
+    Pancho,2150,"4 years, 5 months"
+    Pheonix,1500,"3 years, 1 months"
+    Piroro,2200,"4 years, 7 months"
+    Pixie,1900,"3 years, 11 months"
+    Plant,2000,"4 years, 2 months"
+    Suezo,1950,"4 years, 0 months"
+    Tiger,1950,"4 years, 0 months"
+    Xenon,2250,"4 years, 8 months"
+    Zan,1850,"3 years, 10 months"
+
+\* Assumes no lifespan loss beyond weekly decrease (ex. if resting every week). Actual number of years and months of life will likely be lower by a few months.
 
 Special cases
 ^^^^^^^^^^^^^
