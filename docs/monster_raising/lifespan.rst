@@ -20,10 +20,19 @@ Cleo will warn you when your monster's lifespan drops below 25% of its starting 
 
 Even when you get this warning, you still have quite a bit of time left with your monster. Depending on your monster's starting lifespan, they may have ~8 months to ~1 year and 4 months of lifespan left.
 
+Factors
+-------
+There are several things that impact a monster's lifespan:
+
+* :ref:`Time passing <weekly_lifespan_decrease>` causes your monster's lifespan to decrease based on its stress and fatigue
+* :ref:`Going on drills and errantry <lifespan_drills_and_errantry>` impacts lifespan slightly differently than training and resting
+* :ref:`Participating in tournaments <lifespan_tournaments>` decreases your monster's lifespan
+* :ref:`Certain items <lifespan_items>` can increase or decrease your monsters lifespan
+
 .. _weekly_lifespan_decrease:
 
 Weekly decrease
----------------
+^^^^^^^^^^^^^^^
 At the start of every week, your current monster's lifespan decreases by a base amount of :code:`10`. Their lifespan is then further decreased based on the monster's current :ref:`stress <stress>` and :ref:`fatigue <fatigue>`.
 
 .. csv-table::
@@ -48,29 +57,35 @@ So for example, if your monster has a stress level of :code:`50` and a fatigue l
 
 In the worst case, your monster have its lifespan decrease by as much as :code:`52` in a single week (with :code:`900+` stress and :code:`900+` fatigue).
 
+.. _lifespan_drills_and_errantry:
+
 Drills & errantry
------------------
+^^^^^^^^^^^^^^^^^
 When you send your monster on a drill or errantry, while the activity takes 4 weeks, only 2 weeks worth of :ref:`weekly lifespan decreases <weekly_lifespan_decrease>` are applied. The 2 decreases are applied based on your monster's stress and fatigue after coming back from the drill or errantry.
 
 Because of this, **doing a drill or errantry can be a more effective use of lifespan than normal training**.
 
 For example, if you monster returns from a drill with :code:`408` stress and :code:`436` fatigue then its lifespan will be decreased by :code:`28`. This is less than the decrease of :code:`40` that could occur if resting or training for 4 weeks.
 
+.. _lifespan_tournaments:
+
 Tournaments
------------
+^^^^^^^^^^^
 Having your monster participate in a tournament reduces its lifespan. Losing a tournament decreases your monster's lifespan by :code:`24`, while winning a tournament only reduces their lifespan by :code:`8`.
 
 Your monster's stress and fatigue do not have any impact on how much lifespan they lose due to participating in tournaments.
 
+.. _lifespan_items:
+
 Items
------
+^^^^^
 There are several consumable items that impact your monster's lifespan. They are grouped into the following categories:
 
 * Items that decrease lifespan as a tradeoff for temporary battle stat or training effectiveness increases
 * Items that increase lifespan
 
 Decrease
-^^^^^^^^
+""""""""
 .. csv-table::
     :header: Name, Type, Stats, Lifespan
 
@@ -82,7 +97,7 @@ Decrease
     Bell Flower, Training+, Skill & Speed, -25
 
 Increase
-^^^^^^^^
+""""""""
 There are two rare items that increase your monster's lifespan: :ref:`Silver Peach and Gold Peach <lifespan_increasing_items>`. Lifespan maxes out at :code:`9999`, so increasing your monsters lifespan can have it exceed it's original lifespan at creation.
 
 .. csv-table::
