@@ -6,6 +6,8 @@ Each monster has a lifespan which determines how much longer it has to live. Str
 
 When a monster's starts a week with its lifespan at :code:`0`, they will die.
 
+Monsters tend to live between 3 years and 5 years of age, but that will vary based on the monster's main and sub-breeds as well as how you raise them. Rasing your monster poorly can greatly decrease their lifespan, while raising them effectively can make them live even longer.
+
 Cleo's warning
 --------------
 Cleo will warn you when your monster's lifespan drops below 25% of its starting lifespan.
@@ -20,14 +22,23 @@ Cleo will warn you when your monster's lifespan drops below 25% of its starting 
 
 Even when you get this warning, you still have quite a bit of time left with your monster. Depending on your monster's starting lifespan, they may have ~8 months to ~1 year and 4 months of lifespan left.
 
+Strategy
+--------
+To make better use of your monster's lifespan, you can:
+
+* Send them on drills as opposed to training in order to raise their stats
+* Keep their :ref:`stress <stress>` and :ref:`fatigue <fatigue>` low
+* Avoid letting them lose tournaments
+* Feed them Tofu every month
+
 Factors
 -------
 There are several things that impact a monster's lifespan:
 
 * :ref:`Time passing <weekly_lifespan_decrease>` causes your monster's lifespan to decrease based on its stress and fatigue
-* :ref:`Going on drills and errantry <lifespan_drills_and_errantry>` impacts lifespan slightly differently than training and resting
+* :ref:`Going on drills and errantry <lifespan_drills_and_errantry>` impacts lifespan slightly differently than normal time passing
 * :ref:`Participating in tournaments <lifespan_tournaments>` decreases your monster's lifespan
-* :ref:`Certain items <lifespan_items>` can increase or decrease your monsters lifespan
+* :ref:`Certain items <lifespan_items>` can increase or decrease your monster's lifespan
 
 .. _weekly_lifespan_decrease:
 
@@ -98,7 +109,7 @@ Decrease
 
 Increase
 """"""""
-There are two rare items that increase your monster's lifespan: :ref:`Silver Peach and Gold Peach <lifespan_increasing_items>`. Lifespan maxes out at :code:`9999`, so increasing your monsters lifespan can have it exceed it's original lifespan at creation.
+There are two rare items that increase your monster's lifespan: :ref:`Silver Peach and Gold Peach <lifespan_increasing_items>`. There is no limit to how many peaches a monster can eat. Lifespan only maxes out at :code:`9999`, so increasing your monsters lifespan can have it exceed it's starting lifespan.
 
 .. csv-table::
     :header: Name, Lifespan
@@ -106,7 +117,7 @@ There are two rare items that increase your monster's lifespan: :ref:`Silver Pea
     Silver Peach, +250
     Gold Peach, +500
 
-The monthly food Tofu has the impact of increasing your monster's lifespan by :code:`5`.
+The monthly food Tofu has the impact of increasing your monster's lifespan by :code:`5`. Feeding your monster tofu every month can result in your monster living ~11% longer. [#f3]_
 
 .. csv-table::
     :header: Name, Lifespan
@@ -149,37 +160,37 @@ Below are the starting lifespans of the pure-breed species.
 .. csv-table::
     :header: Breed, Lifespan, Estimated age\*
 
-    Abyss,2050,"4 years, 3 months"
-    Baku,2100,"4 years, 4 months"
-    Beaclon,2050,"4 years, 3 months"
-    Centaur,1950,"4 years, 0 months"
-    Color Pandora,2000,"4 years, 2 months"
-    Dragon,1850,"3 years, 10 months"
-    Ducken,1950,"4 years, 0 months"
-    Durahan,2100,"4 years, 4 months"
-    Falco,1900,"3 years, 11 months"
-    Gali,1700,"3 years, 6 months"
-    Golem,2300,"4 years, 9 months"
-    Hare,2000,"4 years, 2 months"
-    Hengar,2500,"5 years, 2 months"
     Joker,1500,"3 years, 1 months"
-    Lesione,2500,"5 years, 2 months"
-    Mew,2000,"4 years, 2 months"
-    Mocchi,2000,"4 years, 2 months"
-    Monol,1800,"3 years, 9 months"
-    Naga,1750,"3 years, 7 months"
-    Ogyo,2050,"4 years, 3 months"
-    Pancho,2150,"4 years, 5 months"
     Pheonix,1500,"3 years, 1 months"
-    Piroro,2200,"4 years, 7 months"
+    Gali,1700,"3 years, 6 months"
+    Naga,1750,"3 years, 7 months"
+    Monol,1800,"3 years, 9 months"
+    Dragon,1850,"3 years, 10 months"
+    Zan,1850,"3 years, 10 months"
+    Falco,1900,"3 years, 11 months"
     Pixie,1900,"3 years, 11 months"
-    Plant,2000,"4 years, 2 months"
+    Centaur,1950,"4 years, 0 months"
+    Ducken,1950,"4 years, 0 months"
     Suezo,1950,"4 years, 0 months"
     Tiger,1950,"4 years, 0 months"
+    Color Pandora,2000,"4 years, 2 months"
+    Hare,2000,"4 years, 2 months"
+    Mew,2000,"4 years, 2 months"
+    Mocchi,2000,"4 years, 2 months"
+    Plant,2000,"4 years, 2 months"
+    Abyss,2050,"4 years, 3 months"
+    Beaclon,2050,"4 years, 3 months"
+    Ogyo,2050,"4 years, 3 months"
+    Baku,2100,"4 years, 4 months"
+    Durahan,2100,"4 years, 4 months"
+    Pancho,2150,"4 years, 5 months"
+    Piroro,2200,"4 years, 7 months"
     Xenon,2250,"4 years, 8 months"
-    Zan,1850,"3 years, 10 months"
+    Golem,2300,"4 years, 9 months"
+    Hengar,2500,"5 years, 2 months"
+    Lesione,2500,"5 years, 2 months"
 
-\* Assumes no lifespan loss beyond weekly decrease (ex. if resting every week). Actual number of years and months of life will likely be lower by a few months.
+\* Assumes no lifespan loss beyond :ref:`weekly decrease <weekly_lifespan_decrease>` (ex. if resting every week). Actual number of years and months of life will likely be lower by a few months.
 
 Special cases
 ^^^^^^^^^^^^^
@@ -197,3 +208,4 @@ There are four monsters that do not follow the normal lifespan calculations:
 
 .. [#f1] Thanks to Monster Fenrick (Taylor W) on the /r/monsterrancher chat Discord server for pointing out that the lifespan for mixed-breeds might be 60/40 the main and sub-breeds' lifespan.
 .. [#f2] A different, but equivalent, approach to calculating mixed-breed monster lifespans is described in `Penopat's GameFAQs thread <https://gamefaqs.gamespot.com/boards/946519-monster-rancher-ds/56024426>`_.
+.. [#f3] Assuming you raise a monster such that their lifespan decreases by 44 each month. If the monster has a starting lifespan of 1500 (ex. Joker) then tofu will increase their lifespan by ~11.4% (2y 11m -> 3y 3m). If the monster has a starting lifespan of 2500 (ex. Hengar) then tofu will increase their lifespan by ~12.3% (4y 9m -> 5y 4m).
