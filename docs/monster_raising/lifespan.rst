@@ -20,7 +20,7 @@ Cleo will warn you when your monster's lifespan drops below 25% of its starting 
 
     The best thing to do would be freeze and combine it at the Lab.
 
-Even when you get this warning, you still have quite a bit of time left with your monster. Depending on your monster's starting lifespan, they may have ~8 months to ~1 year and 4 months of lifespan left.
+Even when you get this warning, you still have quite a bit of time left with your monster. Depending on your monster's starting lifespan and how you raise them, they may have ~8 months to ~1 year and 4 months of lifespan left.
 
 Strategy
 --------
