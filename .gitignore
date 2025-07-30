@@ -1,5 +1,11 @@
 /docs/_build/
 
+.~lock.*
+
+ages.csv
+lifespans.csv
+lifespan_sim.png
+
 # Python-generated files
 __pycache__/
 *.py[oc]
