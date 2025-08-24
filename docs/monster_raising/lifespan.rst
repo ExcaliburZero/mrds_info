@@ -2,11 +2,13 @@
 
 Lifespan
 ========
-Each monster has a lifespan which determines how much longer it has to live. Stress, fatigue, tournaments, and the inevitable progression of time will lower a monster's remaining lifespan.
+Each monster has a lifespan which determines how long it will live. Stress, fatigue, tournaments, and the progression of time lower your monster's remaining lifespan.
 
-When a monster's starts a week with its lifespan at :code:`0`, they will die.
+When your monster starts a week with its lifespan at :code:`0`, they will die.
 
 Monsters tend to live between 3 years and 5 years of age, but that will vary based on the monster's main and sub-breeds as well as how you raise them. Rasing your monster poorly can greatly decrease their lifespan, while raising them effectively can make them live even longer.
+
+Monsters that are frozen in the Studio do not decrease in lifespan.
 
 Cleo's warning
 --------------
@@ -20,7 +22,7 @@ Cleo will warn you when your monster's lifespan drops below 25% of its starting 
 
     The best thing to do would be freeze and combine it at the Lab.
 
-Even when you get this warning, you still have quite a bit of time left with your monster. Depending on your monster's starting lifespan and how you raise them, they may have ~8 months to ~1 year and 4 months of lifespan left.
+Even when you get this warning, you still have quite a bit of time left with your monster. Depending on your monster's starting lifespan and how you raise them, they may have many months or even longer than a year left to live.
 
 Strategy
 --------
@@ -29,11 +31,11 @@ To make better use of your monster's lifespan, you can:
 * Send them on drills as opposed to training in order to raise their stats
 * Keep their :ref:`stress <stress>` and :ref:`fatigue <fatigue>` low
 * Avoid letting them lose tournaments
-* Feed them Tofu every month
+* Feed them Tofu frequently
 
 Factors
 -------
-There are several things that impact a monster's lifespan:
+There are several things that impact your monster's lifespan:
 
 * :ref:`Time passing <weekly_lifespan_decrease>` causes your monster's lifespan to decrease based on its stress and fatigue
 * :ref:`Going on drills and errantry <lifespan_drills_and_errantry>` impacts lifespan slightly differently than normal time passing
@@ -66,7 +68,7 @@ At the start of every week, your current monster's lifespan decreases by a base 
 
 So for example, if your monster has a stress level of :code:`50` and a fatigue level of :code:`350` then your monster's lifespan will decrease by :code:`12` (:code:`10 + 0 + 2`).
 
-In the worst case, your monster have its lifespan decrease by as much as :code:`52` in a single week (with :code:`900+` stress and :code:`900+` fatigue).
+In the worst case, your monster's lifespan can decrease by as much as :code:`52` in a single week (with :code:`900+` stress and :code:`900+` fatigue).
 
 .. _lifespan_drills_and_errantry:
 
@@ -93,7 +95,7 @@ Items
 There are several consumable items that impact your monster's lifespan. They are grouped into the following categories:
 
 * Items that decrease lifespan as a tradeoff for temporary battle stat or training effectiveness increases
-* Items that increase lifespan
+* Items that increase lifespan as a main or secondary effect
 
 Decrease
 """"""""
@@ -117,7 +119,7 @@ There are two rare items that increase your monster's lifespan: :ref:`Silver Pea
     Silver Peach, +250
     Gold Peach, +500
 
-The monthly food Tofu has the impact of increasing your monster's lifespan by :code:`5`. Feeding your monster tofu every month can result in your monster living ~11% longer. [#f3]_
+Feeding your monster Tofu increases its lifespan by :code:`5`. Feeding your monster tofu every month can result in your monster living ~11% longer. [#f3]_
 
 .. csv-table::
     :header: Name, Lifespan
@@ -126,7 +128,7 @@ The monthly food Tofu has the impact of increasing your monster's lifespan by :c
 
 Starting lifespan
 -----------------
-Each monster species starts out with a particular lifespan when it is created. Even for species with the same main-breed, their lifespan will vary based on their sub-breed.
+Each monster species starts out with a particular lifespan when it is created. Their starting lifespan will vary based on their main-breed and sub-breed.
 
 The pattern for the lifespan of a given breed depending on its sub-breed appears to be the following:
 
@@ -134,13 +136,13 @@ The pattern for the lifespan of a given breed depending on its sub-breed appears
 * For "-ish" monsters, their starting lifespan is 105% of the pure-breed.
 * For special "?" monsters, their starting lifespan is 90% of the pure-breed.
 
-As some examples of how to calculate the lifespans:
+Below are some examples of how to calculate starting lifespans:
 
 * Falco / Abyss has a lifespan of :code:`0.6 * 1900 + 0.4 * 2050` = :code:`1140 + 820` = :code:`1960`
 * Falco / ? (-ish) has a lifespan of :code:`1900 * 1.05` = :code:`1995`
 * Falco / ? (Jock) has a lifespan of :code:`1900 * 0.90` = :code:`1710`
 
-The table below shows the 7 types of Falco in comparison to their sub-breed lifespans.
+As a further example, the table below shows the lifespans of the 7 types of Falco in comparison to their sub-breeds.
 
 .. csv-table::
     :header: Breeds, Main, Sub, Lifespan
@@ -155,7 +157,7 @@ The table below shows the 7 types of Falco in comparison to their sub-breed life
 
 Pure-breed lifespans
 ^^^^^^^^^^^^^^^^^^^^
-Below are the starting lifespans of the pure-breed species.
+Below are the starting lifespans of the pure-breed species from shortest to longest living.
 
 .. csv-table::
     :header: Breed, Lifespan, Estimated age\*
@@ -194,7 +196,7 @@ Below are the starting lifespans of the pure-breed species.
 
 Special cases
 ^^^^^^^^^^^^^
-There are four monsters that do not follow the normal lifespan calculations:
+There are four monster species that do not follow the normal lifespan calculations:
 
 .. csv-table::
     :header: Breed, Lifespan
