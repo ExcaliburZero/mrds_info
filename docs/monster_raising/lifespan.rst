@@ -47,22 +47,22 @@ Weekly decrease
 At the start of every week, your current monster's lifespan decreases by a base amount of :code:`10`. Their lifespan is then further decreased based on the monster's current :ref:`stress <stress>` and :ref:`fatigue <fatigue>`.
 
 .. csv-table::
-    :header: Stress, Lifespan
+    :header: Stress,Lifespan,Comment
 
-    0 to 299, 0
-    300 to 499, -2
-    500 to 699, -6
-    700 to 899, -14
-    900 to 999, -22
+    0 to 299,0,feels great
+    300 to 499,-2,looks a little stressed
+    500 to 699,-6,looks pretty stressed
+    700 to 899,-14,is way stressed out
+    900 to 999,-22,is way stressed out
 
 .. csv-table::
-    :header: Fatigue, Lifespan
+    :header: Fatigue,Lifespan,Comment
 
-    0 to 299, 0
-    300 to 499, -2
-    500 to 699, -6
-    700 to 899, -14
-    900 to 999, -22
+    0 to 299,0,feels great
+    300 to 499,-2,seems a little tired
+    500 to 699,-6,is exhausted
+    700 to 899,-14,it's about to keel over
+    900 to 999,-22,is gonna pass out
 
 So for example, if your monster has a stress level of :code:`50` and a fatigue level of :code:`350` then your monster's lifespan will decrease by :code:`12` (:code:`10 + 0 + 2`).
 
