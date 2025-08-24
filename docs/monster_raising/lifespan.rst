@@ -119,7 +119,7 @@ There are two rare items that increase your monster's lifespan: :ref:`Silver Pea
     Silver Peach, +250
     Gold Peach, +500
 
-Feeding your monster Tofu increases its lifespan by :code:`5`. Feeding your monster tofu every month can result in your monster living ~11% longer. [#f3]_
+Feeding your monster Tofu increases its lifespan by :code:`5`. Feeding your monster tofu every month can result in your monster living ~12% longer. [#f3]_
 
 .. csv-table::
     :header: Name, Lifespan
